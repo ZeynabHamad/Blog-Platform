@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import icone from "../Images/Logo.svg";
 
 function Navbar({ setSearch }) {
@@ -16,15 +16,15 @@ function Navbar({ setSearch }) {
               </span>
             </a>
             <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center cursor-pointer">
-              <Link to="/" className="mr-5 hover:text-gray-900 cursor">
+              <NavLink to="/" className="mr-5 hover:text-gray-900 cursor">
                 Home
-              </Link>
-              <Link to="/about" className="mr-5  hover:text-gray-900">
+              </NavLink>
+              <NavLink to="/about" className="mr-5  hover:text-gray-900">
                 About As
-              </Link>
-              <Link to="/contact" className="mr-5 hover:text-gray-900">
+              </NavLink>
+              <NavLink to="/contact" className="mr-5 hover:text-gray-900">
                 Contact
-              </Link>
+              </NavLink>
             </nav>
 
             <input
