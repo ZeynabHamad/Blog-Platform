@@ -50,17 +50,14 @@ function App() {
     <>
       <Navbar setSearch={setSearch} />
       <Routes>
-        <Route
-          path="/"
-          element={
-            <Home data={filteredData} location={setLocation} maxLength={8} />
-          }
-        />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/details/:id" element={<Details />} />
         <Route path="/details/:id/photos" element={<Photos />} />
       </Routes>
+
+      <Navbar setSearch={setSearch} />
+      <Home data={filteredData} location={setLocation} maxLength={8} />
+      <About />
+      <Contact />
       <Footer />
     </>
   );

@@ -23,7 +23,7 @@ const Photos = () => {
   }, [id]);
 
   return (
-    <section className="text-gray-600 body-font">
+    <section id="photos" className="text-gray-600 body-font">
       <Back />
       {blog.id ? (
         <div className="container px-5 py-0 mx-auto">

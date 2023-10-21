@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable react/no-unknown-property */
-import { Link } from "react-router-dom";
+
 import icone from "../Images/Logo2.svg";
 
 const Footer = () => {
@@ -22,28 +22,28 @@ const Footer = () => {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <Link
-                  to="/"
+                <a
+                  href="/"
                   className="text-gray-600 hover:text-gray-800 hover:underline py-4"
                 >
                   Home
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
-                  to="/about"
+                <a
+                  href="#about"
                   className="text-gray-600 hover:text-gray-800 hover:underline py-4"
                 >
                   About Us
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
-                  to="/contact"
+                <a
+                  href="#contact"
                   className="text-gray-600 hover:text-gray-800 hover:underline"
                 >
                   Contact
-                </Link>
+                </a>
               </li>
             </nav>
           </div>

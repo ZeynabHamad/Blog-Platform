@@ -4,7 +4,7 @@ const SeeMoreButton = ({ showMore, setShowMore }) => {
     setShowMore(!showMore);
   };
   return (
-    <div className="w-full flex justify-center items-center rounded-lg bg-red-200 my-10">
+    <div className="w-full flex justify-center items-center rounded-lg bg-red-200 my-8">
       <button
         onClick={toggleShowMore}
         className="items-center hover:scale-110 duration-300"

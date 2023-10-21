@@ -19,7 +19,7 @@ const Details = () => {
   }, [id]);
 
   return (
-    <section className="w-full ">
+    <section id="details" className="w-full ">
       <Back />
       {blog.id ? (
         <div className="container mx-auto flex px-5 py-10 md:py-0 md:flex-row flex-col items-center font-mono">

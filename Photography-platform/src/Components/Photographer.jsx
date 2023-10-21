@@ -11,6 +11,7 @@ const Photographer = ({ name, image, location, id }) => {
           src={image}
         />
         <Link to={`/details/${id}`}>
+          {/* <a id="details"> */}
           <div className="w-full">
             <h2 className="title-font font-black text-lg text-gray-800 hover:underline underline-offset-4 ease-in duration-200">
               {name}
